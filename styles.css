@@ -1,0 +1,144 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Telegraf', sans-serif;
+    text-align: center;
+    background: #1F1F1F;
+    color: red;
+}
+.container {
+    margin-top: 5%;
+}
+.name {
+    font-size: 48px;
+    text-transform: uppercase;
+    font-family: 'Bernoru', sans-serif;
+}
+.dob {
+    font-size: 35px;
+    font-family: 'Telegraf', sans-serif;
+}
+.box-box {
+    border: 3px solid red;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.container2 {
+    text-align: left;
+    margin: 10px;
+    margin-bottom: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: white;
+    color: black;
+}
+.h2 {
+    font-family: 'Bernoru', sans-serif;
+    font-size: 35px;
+    text-align: left;
+}
+.pf {
+    font-family: 'Telegraf', sans-serif;
+    font-size: 20px ;
+    text-align: center ;
+    margin-left: 10px;
+    margin-right: 10px;
+    color:white;
+}
+.container3 {
+    border: 3px solid white;
+    margin-left: 5%;
+    margin-right: 5%;
+    
+}
+.photo {
+    width: 45%;
+    height: 200px;
+    background-color: grey;
+}
+.text {
+    width: 45%;
+    height: 200px;
+}
+.line {
+    border: none;
+    border-top: 1px solid white;
+    margin: 20px 0;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.profile-img {
+    width: 250px; 
+    height: 250px;
+    border-radius: 50%; 
+    filter: grayscale(100%); 
+}
+.links {
+    text-align: center; 
+    margin-bottom: 5%;
+}
+
+.links a {
+    display: inline-block;
+    margin-right: 35px; 
+    margin-top: 5%;
+}
+
+.links a:hover {
+    color: #FF0000; 
+}
+
+.logo {
+    width: 100px; 
+    height: auto;  
+}
+
+.links {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    flex-wrap: wrap; 
+}
+
+.logo {
+    width: 100px; 
+    height: auto; 
+    margin: 0 10px; 
+    transition: filter 0.3s ease; 
+}
+
+.site-name {
+    display: block; 
+    text-align: center; 
+    margin-top: 5px; 
+    color: white;
+}
+
+.logo:hover {
+    filter: grayscale(10%); 
+}
+
+.logo:hover + .site-name {
+    color: red; 
+}
+
+.voyage {
+    width: 400px;
+    height: auto;
+    transition: transform 0.3s ease; 
+}
+
+.voyage:hover {
+    transform: scale(1.1);
+}
+.footer {
+    background-color: #333; 
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 28px;
+    text-transform: uppercase;
+    font-family: 'Bernoru', sans-serif;
+    margin-top: 5%;
+}
